@@ -2,11 +2,11 @@
 # Author by Prosfinity Limited
 
 
-#wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest.py
-#chmod +x speedtest-cli
+wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x speedtest-cli
 
-#apt-get install python3
-#./speedtest-cli
+apt-get install python3
+./speedtest-cli
 
 echo "-------------------------------"
 echo "SpeedTest Done"

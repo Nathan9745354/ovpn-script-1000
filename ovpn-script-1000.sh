@@ -5,7 +5,7 @@
 wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest.py
 chmod +x speedtest-cli
 
-apt-get install python3
+apt-get install python
 ./speedtest-cli
 
 echo "-------------------------------"

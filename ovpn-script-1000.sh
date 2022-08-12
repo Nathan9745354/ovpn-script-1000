@@ -22,6 +22,7 @@ echo "OpenVPN Installation Done"
 echo "-------------------------------"
 
 
+echo "push "dhcp-option DNS 1.1.1.1"" >> /etc/openvpn/server/server.conf
 echo "duplicate-cn" >> /etc/openvpn/server/server.conf
 echo "status /var/log/openvpn-status.log" >> /etc/openvpn/server/server.conf
 echo "log-append /var/log/openvpn.log" >> /etc/openvpn/server/server.conf

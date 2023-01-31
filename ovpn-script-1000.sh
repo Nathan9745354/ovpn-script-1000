@@ -68,17 +68,7 @@ echo "IPtables Config Done"
 echo "-------------------------------"
 
 
-cd /root
 
-git clone https://github.com/magnific0/wondershaper.git
-cd wondershaper
-chmod 777 wondershaper
-./wondershaper -a tun0 -u 5000 -d 5000
-./wondershaper -s -a tun0
-
-echo "-------------------------------"
-echo "Traffic Control Done"
-echo "-------------------------------"
 
 exit
 
